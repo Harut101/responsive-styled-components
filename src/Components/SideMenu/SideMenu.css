@@ -1,0 +1,47 @@
+.SideMenu{
+    position: fixed;
+    width: 80%;
+    max-width: 300px;
+    background: white;
+    z-index: 90;
+    padding: 20px 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    transform: translateX(0px);
+    transition: transform .22s ease-in;
+}
+
+.close{
+    transform: translateX(-300px);
+}
+
+.SideMenu h3{
+   letter-spacing: 4px;
+   color: #32323b;
+}
+
+.SideMenu ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.SideMenu ul li{
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid gray;
+}
+
+
+.SideMenu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+}
+
+.SideMenu ul li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(80, 77, 77);
+}

@@ -1,0 +1,20 @@
+.Nvigation{
+    flex-grow: 1;
+}
+
+.Nvigation nav ul{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.Nvigation nav ul div li{
+    margin-right: 70px
+}
+
+.Nvigation nav ul div li:last-child{
+    margin-right: 0
+}
+
+.Nvigation nav ul div li a{
+    text-decoration: none;
+}
